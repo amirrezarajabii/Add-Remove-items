@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HomeWork</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="d-flex justify-content-center">
+    <span><i style="font-size: 60px" class="fa fa-shopping-cart"></i></span>
+        <h1>Shopping</h1>
+        <p style="color:black">List</p>
+    </div>
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Product Name</label>
+          <input type="text" class="form-control" id="pname">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Product Description</label>
+            <input type="text" class="form-control" value="" id="descript">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Product Code</label>
+            <input type="text" class="form-control" value="" id="code">
+          </div>
+        <button onclick="addProduct()" type="button" class="btn btn-primary">Add to card</button>
+      </form>
+      <br>
+
+
+
+
+
+
+      <table class="table table-hover" id="showTable">
+            <thead>
+              <tr>
+                <th scope="col">Product Name</th>
+                <th scope="col">Product Description</th>
+                <th scope="col">Product Code</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <tr id="newRow">
+                <!-- <td id="tabName"></td>
+                <td id="tabDesc"></td>
+                <td id="tabCode"></td>
+                <td><button onclick="deleteItem()" type="button" class="btn btn-danger btn-sm">X</button> -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+</body>
+</html>

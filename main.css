@@ -1,0 +1,24 @@
+.header{
+    /* position: absolute; */
+    margin-left: 40%;
+}
+.header span{
+    float: left;
+}
+.fa{
+    font-size: 60px;
+    color: rgb(66, 209, 209);
+}
+h1{
+    margin-left: 20px;
+    color: rgb(66, 209, 209);
+}
+p{
+    margin-left: 9px;
+    font-size: 35px;
+}
+form{
+    /* position: absolute; */
+    width: 100%;
+    height: 40vh;
+}
